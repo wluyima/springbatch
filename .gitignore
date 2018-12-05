@@ -1,0 +1,49 @@
+# Copied from https://github.com/github/gitignore
+
+### IntelliJ Idea ###
+*.iml
+*.ipr
+*.iws
+.idea/
+
+### Maven ###
+target/
+#############
+
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+WebContent/
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+### Java ###
+*.class
+
+# Java Package Files #
+*.jar
+*.war
+*.ear
+############
+
+### Linux ###
+.*
+!.gitignore
+!.gitattributes
+*~
