@@ -56,6 +56,7 @@ public class BatchConfiguration {
 		lineMapper.setLineTokenizer(new DelimitedLineTokenizer());
 		lineMapper.setFieldSetMapper(new LocationFieldSetMapper());
 		reader.setLineMapper(lineMapper);
+		reader.setLinesToSkip(1);
 		reader.afterPropertiesSet();
 		return reader;
 	}
